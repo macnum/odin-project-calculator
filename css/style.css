@@ -42,15 +42,31 @@
     display: inline-block ;
     flex: 1 1 110px;
     height: fit-content;
-    background-color: #403636;
+    background-color: #504c4c;
     color: #fff;
     font-size: 26px;
     border-radius: 6px;
-}
-button:hover {
-    background-color: brown;
+    text-align: center;
+    padding: 10px;
 }
 
 button.clear {
     background-color: #29405f;
+}
+button.back-delete{
+    background-color: #8d1919bb;
+    color: #fff;
+    flex: 2 1 230px;
+}
+button.equal {
+    background-color:#000000;
+    flex: 2 1 230px;
+}
+button:hover,button:focus {
+    background-color: #8d1919;
+}
+button.exponentiation {
+    background-color: #8d1919bb;
+    color: #fff;
+    flex: 2 1 230px;
 }
